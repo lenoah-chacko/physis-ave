@@ -1,0 +1,12 @@
+body{
+    background-color: #010001;
+    width: 100%;
+}
+
+.pink{
+    color: rgb(255,0,150);
+}
+
+.display-linebreak {
+    white-space: pre-line;
+  }

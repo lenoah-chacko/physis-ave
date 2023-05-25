@@ -1,0 +1,111 @@
+.red{
+    background-color: #e03842;
+}
+.blue{
+    background-color: #c6b7a4;
+}
+.green{
+    background-color: #a19134;
+}
+.yellow{
+    background-color: #ffcec9;
+}
+.purple{
+    background-color: #abcfe3;
+}
+.orange{
+    background-color: #61927e;
+}
+.handle
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    margin-left: 15px;
+    cursor: pointer;
+    text-wrap: none;
+    white-space: nowrap;
+    font-size: 24px;
+    font-weight: 600;
+}
+.title h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.description{
+    font-size: 28px;
+    font-weight: 400;
+    margin: 40px 0;
+    padding: 0;
+    color: black;
+}
+.image{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: -1;
+    padding: 100px;
+    box-sizing: border-box;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    filter: invert(1);
+    opacity: 0.7;
+}
+.cardFrame{
+    position: relative;
+    z-index: 1;
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 40px 40px 40px 64px;
+    box-sizing: border-box;
+    color: #000;
+}
+.learn-more{
+    left:20%;
+    right:20%;
+    margin: 20px auto;
+    position: absolute;
+    bottom: 0;
+}
+.btn-pink{
+    background-color: rgba(255, 0, 100);
+    color: #fff;
+    border: 1px rgba(0,0,0,0.5) solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+.btn-pink:hover{
+    background-color: rgba(255, 0, 125);
+    border: none;
+    color: #fff;
+}
+.btn-pink:active{
+    background-color: rgba(255, 0, 150);
+}
+.btn-pink:focus{
+    outline: none;
+}
+.btn-pink a{
+    color: #fff;
+    text-decoration: none;
+}

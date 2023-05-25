@@ -1,0 +1,56 @@
+.card-selector{
+    position: relative;
+    min-height: 50vh;
+}
+.slider {
+	display: flex;
+	max-width: 80%;
+	margin: 5vh auto;
+	border: 1px solid #222;
+	list-style: none;
+	padding: 0;
+	height: 680px;
+}
+
+.slider__slide {
+	position: relative;
+	flex: 0 0 100px;
+	transition: all .4s ease;
+}
+.slider__slide:hover {
+    cursor: pointer;
+}
+.slider__slide--active {
+    flex: 1; 
+}
+.slider__slide--active .slider__content {
+    left: 60px;
+}
+
+.slider__motive {
+	width: 100%;
+	height: 100%;
+}
+
+.slider__image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.slider__content {
+	position: absolute;
+	top: 50px;
+	left: 20px // right padding
+}
+.slider__slide .description, .slider__slide .title, .slider__slide .learn-more{
+    display: none;
+}
+.slider__slide--active .description, .slider__slide--active .title, .slider__slide--active .learn-more{
+    display: block;
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
