@@ -14,8 +14,8 @@ export default function AboutUs() {
       <div className='card'>
           <img className="card-img-top" src={member.image} alt={member.name+" image"}/>
           <div className='card-body'>
-              <h5 className='card-title'>{member.name}</h5>
-              <h6 className='card-subtitle mb-2 text-muted'>{member.occputation}</h6>
+              <h5 className='card-title text-center'>{member.name}</h5>
+              <h6 className='card-subtitle mb-2 text-muted text-center'>{member.occputation}</h6>
           </div>
       </div>
     ))
@@ -74,10 +74,7 @@ export default function AboutUs() {
             <h1 className='mx-auto text-center mt-5 mb-4 pink'>Team Physis</h1>
             {/* cards of users */}
             <div className='card-deck mb-4'>
-                {getMembers(0,3)}
-            </div>
-            <div className='card-deck mb-5'>
-                {getMembers(3,members.length)}
+                {getMembers(0,members.length)}
             </div>
           </div>
         </div>
