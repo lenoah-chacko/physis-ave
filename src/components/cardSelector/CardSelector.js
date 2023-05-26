@@ -3,7 +3,7 @@ import {useState} from 'react'
 
 import Card from './card/Card'
 
-import farmImage from './farmer.png'
+import farmImage from './farm.png'
 import algaeImage from './algae.png'
 import droneImage from './drone.png'
 import plasticImage from './plastic.png'

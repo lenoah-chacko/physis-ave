@@ -69,7 +69,7 @@ export default function Header() {
     <header className="header">
       <div className="header-content">
         <h1 className='pink'>Physis Avenue</h1>
-        <p>Physis Ave. is our vision of a sustainable city that can be implemented in the future.  Our name is significant to our aim, as ‘avenue’ is not only a wide street, it is a new way of approaching a problem or making progress towards something. We have shed light on solutions that can bring about significant changes to reduce climate change if executed on a large scale.</p>
+        <p>Physis Avenue is our vision of a sustainable city that can be implemented in the future.  Our name is significant to our aim, as ‘avenue’ is not only a wide street, it is a new way of approaching a problem or making progress towards something. We have shed light on solutions that can bring about significant changes to reduce climate change if executed on a large scale.</p>
         <NavLink className="btn btn-outline-success" to="/about">
           About us
         </NavLink>
