@@ -26,7 +26,7 @@ const data=[{
   backgroundColor:"green",
   shortTitle:"Algae Bio-Panels",
   longTitle:"Algae Bio-Panels",
-  description:"Carbon dioxide (CO2) is the primary greenhouse gas emitted through human activities. In 2021, CO2 accounted for 79% of all U.S. greenhouse gas emissions from human activities. That is why we have designed the algae bio-panels, which captures CO2, produces oxygen and generates electricity!",
+  description:"Carbon dioxide (CO²) is the primary greenhouse gas emitted through human activities. In 2021, CO2 accounted for 79% of all U.S. greenhouse gas emissions from human activities. That is why we have designed the algae bio-panels, which captures CO², produces oxygen and generates electricity!",
   image:algaeImage,
   link:"/solutions#"+"Algae Bio-Panels".replace(" ","-")
 },
