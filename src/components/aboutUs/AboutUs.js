@@ -4,6 +4,7 @@ import Eva from './Eva Anna Joseph.png'
 import Manna from './Manna Mariam Baiju.png'
 import Serah from './Serah Prinoy.png'
 import Shaylee from './Shaylee Fairy Lyall.png'
+import Reena from './Reena\ Chacko.jpeg'
 
 import DummyNavbar from '../navbar/DummyNavbar'
 
@@ -46,6 +47,11 @@ export default function AboutUs() {
       name:"Shaylee Fairy Lyall",
       occputation:"Student",
       image:Shaylee
+    },
+    {
+      name:"Reena Chacko",
+      occputation:"Guide",
+      image:Reena
     },]
 
   return (
@@ -74,7 +80,10 @@ export default function AboutUs() {
             <h1 className='mx-auto text-center mt-5 mb-4 pink'>Team Physis</h1>
             {/* cards of users */}
             <div className='card-deck mb-4'>
-                {getMembers(0,members.length)}
+                {getMembers(0,3)}
+            </div>
+            <div className='card-deck mb-4'>
+                {getMembers(3,members.length)}
             </div>
           </div>
         </div>
